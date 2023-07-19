@@ -1,6 +1,6 @@
 {
   "name": "space-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "master of space",
   "repository": "https://github.com/Ntropish/space-converters",
   "main": "dist/index.js",
