@@ -1,18 +1,18 @@
-# Space Converters
+# Space Converter
 
-Space Converters is a powerful yet simple-to-use NPM module designed to convert points and dimensions between different spatial domains (Rects). It is particularly useful in scenarios where you need to map or transform points from one coordinate system to another, such as graphics rendering, game development, and data visualization.
+Space Converter is a powerful yet simple-to-use NPM module designed to convert points and dimensions between different spatial domains (Rects). It is particularly useful in scenarios where you need to map or transform points from one coordinate system to another, such as graphics rendering, game development, and data visualization.
 
 ## Installation
 
 ```bash
-npm install space-converters
+npm install space-converter
 ```
 
 ## Usage
 
 ```ts
-import { Rect } from "space-converters";
-import SpaceConverter from "space-converters";
+import { Rect } from "space-converter";
+import SpaceConverter from "space-converter";
 
 const domain = new Rect(0, 0, 100, 100);
 const range = new Rect(0, 0, 200, 200);
@@ -79,8 +79,8 @@ Represents a point in 2D space with x and y coordinates.
 ## Examples
 
 ```ts
-import { Rect } from "space-converters";
-import SpaceConverter from "space-converters";
+import { Rect } from "space-converter";
+import SpaceConverter from "space-converter";
 
 // Define the original and target coordinate systems
 const domain = new Rect(0, 0, 100, 100);
@@ -111,4 +111,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 If you have any questions or need further guidance, please open an issue on our GitHub repository and we'll be happy to help.
 
-We hope that you find `Space Converters` useful for your projects! Happy coding!
+We hope that you find `Space Converter` useful for your projects! Happy coding!
