@@ -1,14 +1,16 @@
 {
   "name": "space-converter",
   "version": "1.0.0",
-  "description": "",
+  "description": "master of space",
+  "repository": "https://github.com/Ntropish/space-converters",
   "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "test": "mocha",
     "test:watch": "mocha --watch",
     "build": "tsc"
   },
-  "author": "",
+  "author": "ntropish",
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.3.5",
