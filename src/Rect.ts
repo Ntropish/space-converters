@@ -1,4 +1,4 @@
-export default class Rect {
+class Rect {
   x: number;
   y: number;
   width: number;
@@ -16,3 +16,5 @@ export default class Rect {
     this.height = height;
   }
 }
+
+export { Rect };

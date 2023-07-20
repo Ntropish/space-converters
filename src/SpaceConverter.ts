@@ -1,7 +1,7 @@
-import { Point, Span } from "./index.d";
-import Rect from "./Rect";
+import { Point, Span } from "./types";
+import { Rect } from "./Rect";
 
-export default class SpaceConverter {
+class SpaceConverter {
   public readonly domain: Rect;
   public readonly range: Rect;
 
@@ -68,3 +68,5 @@ export default class SpaceConverter {
     );
   }
 }
+
+export { SpaceConverter };

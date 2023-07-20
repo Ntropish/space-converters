@@ -101,7 +101,7 @@ console.log(convertedPoint);
 
 ## Testing
 
-This module has been thoroughly tested for various scenarios. However, if you find any bugs or issues, feel free to open an issue on the GitHub repository.
+This module is just getting started and is not thoroughly tested.
 
 ## License
 
