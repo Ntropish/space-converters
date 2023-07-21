@@ -74,6 +74,19 @@ class Rect {
   get left(): number {
     return this.x;
   }
+
+  toJSON(): object {
+    return {
+      x: this.x,
+      y: this.y,
+      width: this.width,
+      height: this.height,
+      top: this.top,
+      right: this.right,
+      bottom: this.bottom,
+      left: this.left,
+    };
+  }
 }
 
 export { Rect };
