@@ -1,6 +1,6 @@
 import { expect } from "chai";
-import SpaceConverter from "../src/SpaceConverter";
-import Rect from "../src/Rect";
+import { SpaceConverter } from "../src/SpaceConverter";
+import { Rect } from "../src/Rect";
 import { Point } from "../src/index";
 
 describe("SpaceConverter", () => {
