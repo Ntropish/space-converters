@@ -62,10 +62,6 @@ describe("Rect", () => {
       right: 40,
       bottom: 60,
       left: 10,
-      _x: 10,
-      _y: 20,
-      _width: 30,
-      _height: 40,
     });
   });
 });
